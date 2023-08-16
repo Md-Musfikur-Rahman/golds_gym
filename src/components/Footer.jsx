@@ -8,11 +8,20 @@ const Footer = () => {
       <Stack gap="40px" alignItems="center" p="24px">
         <img src={Logo} alt="logo" />
       </Stack>
-      <div className=" flex flex-row justify-center items-center gap-2 m-2">
-        <p className="max-w-md font-normal text-gray-600 text-base">
+      <Stack
+        justifyContent="center"
+        alignItems="center"
+        direction="row"
+        gap="8px"
+        m="8px"
+      >
+        <Typography maxWidth="448px" color="rgb(75 ,85, 99)">
           Made by{" "}
           <a
-            className="font-bold "
+            style={{
+              fontWeight: "bold",
+              color: "#000",
+            }}
             href="https://github.com/Md-Musfikur-Rahman"
             target="_blank"
             rel="noopener noreferrer"
@@ -20,7 +29,7 @@ const Footer = () => {
             MMR
           </a>{" "}
           with
-        </p>
+        </Typography>
 
         <a
           href="https://legacy.reactjs.org/docs/getting-started.html"
@@ -46,7 +55,7 @@ const Footer = () => {
             height={25}
           />
         </a>
-      </div>
+      </Stack>
     </Box>
   );
 };
