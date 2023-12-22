@@ -43,4 +43,4 @@ We welcome contributions, bug reports, and feature requests through pull request
 
 ## Screenshot
 
-![Gold's Gym Website Screenshot](Screenshot.png)
+![Gold's Gym Website Screenshot](SCR-20231024-khlb.jpeg)
